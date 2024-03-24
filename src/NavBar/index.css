@@ -1,0 +1,52 @@
+.bgNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 66px;
+}
+.spanCount {
+  background-color: #9da34d;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  margin-left: 8px;
+  height: 17px;
+}
+.Logo {
+  height: 15px;
+}
+.flexingCounter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  width: 55px;
+}
+.myOrders {
+  color: rgb(25, 0, 0);
+  font-weight: 500;
+  margin-top: 34px;
+}
+@media screen and (max-width: 767px) {
+  .restaurantName {
+    font-size: 19px;
+  }
+  .myOrders {
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,67 @@
+.bgFoodItem {
+  border: 1px solid darkcyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 12px;
+}
+.currency {
+  font-weight: 600;
+}
+.foodDescription {
+  color: rgb(130, 115, 97);
+}
+.buttons {
+  background-color: chocolate;
+  border-radius: 33px;
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  color: #ffffff;
+
+  justify-content: space-around;
+}
+.minus {
+  background-color: chocolate;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.plus {
+  background-color: chocolate;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.customizations {
+  color: rgb(134, 50, 212);
+  font-weight: 600;
+}
+.dishImage {
+  height: 140px;
+  width: 200px;
+}
+.dishImageAndCalories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.calories {
+  color: rgb(120, 170, 19);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .dishImage {
+    height: 100px;
+    width: 100px;
+  }
+  .dishNames {
+    font-size: 18px;
+  }
+}

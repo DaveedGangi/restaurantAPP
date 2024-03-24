@@ -1,0 +1,29 @@
+.Tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.TabButton {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid rgb(68, 145, 33);
+  cursor: pointer;
+  color: rgb(68, 145, 33);
+  background-color: #ffffff;
+  font-weight: 600;
+}
+.tabButton {
+  border: 0px;
+  background-color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loaderView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
